@@ -21,7 +21,7 @@ class Triangle
 
   def kind
     if  invalid?
-      begin
+      # begin
         raise TriangleError
       # rescue TriangleError => error
       #   puts error.message
